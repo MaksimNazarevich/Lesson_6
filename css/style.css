@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body{
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+}
+
+p,
+ul,
+.quote,
+h1{
+	margin: 0 0 24px 0;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	max-width: 810px;
+	margin: 0 auto;
+}
+
+h1{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	padding: 56px 0 16px 0;
+}
+
+.bold-paragraph,
+.quote{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	
+}
+
+.quote{
+	
+	padding: 24px 0 24px 45px ;
+}
+
+img{
+	margin: 0 0 24px 0;
+}
+
+.list{
+	padding-left: 32px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+.blocks{
+	padding-bottom: 30px;
+}
+
+.blocks h2{
+	text-align: center;
+	font-size: 35px;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+
+.min-width{
+	padding: 20px;
+	min-width: 500px;
+	border: 2px solid #000;
+	margin-bottom: 50px;
+}
+
+.image-block img{
+	display: block;
+	max-width: 100%;
+	
+}
+
+.inline-block{
+	border-top: 4px solid red;
+	border-right: 5px dashed #000;
+	border-bottom: 8px dotted yellowgreen;
+	border-left: none;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+
+.inline-block p,
+.inline-block span{
+	display: inline-block;
+	padding: 20px;
+	width: 33%;
+	border: 5px dashed red;
+}
+
+.inline-block img{
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+}
+
+.inline-block span{
+	border: 3px solid green;
+	box-shadow: 3px 3px 5px 5px #8bca8b,inset 3px 3px 5px 5px rgb(151, 186, 25);
+}
+
+span.yellow {
+	border-color: yellow;
+	box-shadow: 3px 3px 5px 5px rgb(79, 79, 11),inset 3px 3px 5px 5px rgb(181, 103, 35);
+}
+
+span.orange{
+	border-color: orange;
+	box-shadow: 3px 3px 5px 5px rgb(79, 79, 11),inset 3px 3px 5px 5px rgb(155, 79, 79);
+}
+
+.some-blocks{
+	padding-left: 20px;
+}
+.btn{
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 15px;
+	display: inline-block;
+	text-align: center;
+	letter-spacing: 0.5px;
+	color: #FFFFFF;
+	padding: 10px 32px;
+	background-color: rgb(189, 77, 36);
+	border-radius: 4px;
+	box-shadow: 3px 3px 5px #000;
+	margin-bottom: 10px;
+	opacity: 0.7;
+
+}
+.btn a:hover{
+	text-decoration: underline;
+	
+}
+
+.scrolled {
+	width: 100px;
+	height: 150px;
+	outline: 2px solid black;
+	overflow: scroll;
+	margin-bottom: 25px;
+}
+
+.invisible:hover{
+	visibility: hidden;
+}
+
+
+
+
+
+
+
+
